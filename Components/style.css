@@ -254,3 +254,52 @@ header nav button {
   color: white;
 }
 
+
+/* contact section */
+#contact-section{
+    background-color: #d0baba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 100px 40px;
+    gap: 20px;
+}
+#contact-section form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+#contact-section form input{
+  width: 100%;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+#contact-section form textarea{
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 7px;
+  outline: none;
+  resize: none;
+}
+#contact-section form label{
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 1%;
+}
+#contact-section form button{
+  margin-top: 2%;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-radius: 19px;
+  font-size: 14px;
+  background: rgb(213, 175, 104);
+}
+#contact-section form button:hover{
+  background: rgb(177, 143, 79);
+}
